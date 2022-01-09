@@ -79,5 +79,8 @@ public class HelloWorld {
 		System.out.println("d10 : " + d10);
 		System.out.println("b10 : " + b10);
 		
+		//int intTest1 = 4324324324324243243243243;
+		String strTest1 = "4324324324324243243243243";
+		
 	}
 }
