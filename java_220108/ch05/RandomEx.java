@@ -4,7 +4,7 @@ public class RandomEx {
 
 	public static void main(String[] args) {
 		// Random으로 숫자 출력
-		// Math.random() -> 0 ~ 1.0 사이의 값을 랜덤으로 출력
+		// Math.random() -> 0.0 ~ 1.0 사이의 값을 랜덤으로 출력
 		System.out.println("랜덤 값1 : " + Math.random());
 		System.out.println("랜덤 값2 : " + Math.random());
 		System.out.println("랜덤 값3 : " + Math.random());
