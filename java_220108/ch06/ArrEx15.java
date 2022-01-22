@@ -17,7 +17,7 @@ public class ArrEx15 {
 			System.out.println(arrInt2[i]);
 		}
 		
-		int[] arr = {1,2,3};		
+		int[] arr = {1,2,3};		// 힙(heap) 영역 메모리에 저장	
 		//int arr[3];		// 배열 사용 문법 에러
 		//int[] arr = new int[3];
 		//int arr[3] = new int[3]; // 배열 사용 문법 에러
