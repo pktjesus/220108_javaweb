@@ -2,7 +2,7 @@ package ch07;
 
 public class Car2 {
 	// ÇÊµå
-	String color;
+	final String color;
 	String company;
 	String type;
 	
