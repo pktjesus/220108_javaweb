@@ -4,8 +4,8 @@ public class ArrEx9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Ã¹¹øÂ° °ª : " + args[0]);
-		System.out.println("µÎ¹øÂ° °ª : " + args[1]);
+		System.out.println("ì²«ë²ˆì§¸ ê°’ : " + args[0]);
+		System.out.println("ë‘ë²ˆì§¸ ê°’ : " + args[1]);
 	}
 
 }
