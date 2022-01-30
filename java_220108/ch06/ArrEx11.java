@@ -7,7 +7,7 @@ public class ArrEx11 {
 		int[][][] arrInt = new int[3][3][3];
 		
 		int value = 0;
-		// 
+		// value 대입
 		for (int i=0; i<=2; i++) {
 			for (int j=0; j<=2; j++) {
 				for (int k=0; k<=2; k++) {
@@ -15,7 +15,7 @@ public class ArrEx11 {
 				}
 			}
 		}
-		// 
+		// value 출력
 		for (int i=0; i<=2; i++) {
 			for (int j=0; j<=2; j++) {
 				for (int k=0; k<=2; k++) {
