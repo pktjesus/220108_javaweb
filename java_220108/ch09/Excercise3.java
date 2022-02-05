@@ -18,9 +18,20 @@ public class Excercise3 {
 	}
 }
 // BaseBallPlayer 클래스 작성
+class BaseBallPlayer implements Player {
+	@Override
+	public void play() {
+		System.out.println("야구선수가 야구를 합니다.");
+	}
+}
 
 // FootBallPlayer 클래스 작성
-
+class FootBallPlayer implements Player {
+	@Override
+	public void play() {
+		System.out.println("축구선수가 축구를 합니다.");
+	}
+}
 // 출력결과 예시
 // -> 야구선수가 야구를 합니다.
 // -> 축구선수가 축구를 합니다.
