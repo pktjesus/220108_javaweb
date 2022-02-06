@@ -7,7 +7,7 @@ class A { // 바깥 클래스
 	
 	static class B { // static 내부 클래스
 		B() { // static 내부 클래스의 생성자
-			System.out.println("C 객체 생성");
+			System.out.println("B 객체 생성");
 		}
 
 		int var1;
@@ -24,7 +24,7 @@ class A { // 바깥 클래스
 
 	public class C { // 인스턴스 내부 클래스
 		C() { // 인스턴스 내부 클래스의 생성자
-			System.out.println("B 객체 생성");
+			System.out.println("C 객체 생성");
 		}
 
 		int var1;
