@@ -20,6 +20,11 @@ public class LocalInnerEx {		// 외부(바깥) 클래스
 		inn.innerMethod();
 	}
 	
+	public void testMethod() {
+//		Inner inn = new Inner(); // error
+//		inn.innerMethod();
+	}
+	
 	public static void main(String[] args) {
 		LocalInnerEx lic = new LocalInnerEx();
 		lic.outerMethod();

@@ -5,8 +5,8 @@ public class OuterInterfaceMain {
 		OuterInterface outInter = new OuterInterface();
 
 		outInter.setInterfaceEx(new InterfaceImple());
-		outInter.outerMethod();
+		outInter.outerMethod();		// ie.method() -> InterfaceImple method() 호출
 		outInter.setInterfaceEx(new InterfaceImple2());
-		outInter.outerMethod();
+		outInter.outerMethod();		// ie.method() -> InterfaceImple2 method() 호출
 	}
 }
