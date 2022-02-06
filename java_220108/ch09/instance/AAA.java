@@ -9,6 +9,8 @@ public class AAA implements AA {
 	}
 
 	@Override
+	@Deprecated
+	@SuppressWarnings("a")
 	public void aa() {
 		// TODO Auto-generated method stub
 		
