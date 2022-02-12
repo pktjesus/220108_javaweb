@@ -16,7 +16,6 @@ public class HashCodeEx {
 		System.out.println("obj1.hashCode():"+obj1.hashCode()) ;
 		System.out.println("obj2.hashCode():"+obj2.hashCode()) ;
 	}
-
 }
 
 class Obj1 {

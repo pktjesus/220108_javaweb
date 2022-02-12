@@ -1,7 +1,6 @@
 package ch12;
 
 public class HashCodeEx2 {
-
 	public static void main(String[] args) {
 		Hash v1 = new Hash(20);
 		Hash v2 = new Hash(20);
