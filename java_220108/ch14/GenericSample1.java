@@ -16,7 +16,7 @@ public class GenericSample1 {
 		System.out.println(number1 + " " + name);
 		
 
-		List<Map<String, Object>>
+		//List<Map<String, Object>>
 		// 제너릭을 사용하는 케이스
 		List<String> list1 = new ArrayList();
 		list1.add("홍길동");	// -> String
