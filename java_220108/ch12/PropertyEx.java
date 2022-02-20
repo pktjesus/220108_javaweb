@@ -2,7 +2,7 @@ package ch12;
 
 public class PropertyEx {
 	public static void main(String[] args) {
-		for (String var : System.getenv().keySet()) {		// OS È¯°æº¯¼ö ¸®½ºÆ® ÀĞ¾î¿È
+		for (String var : System.getenv().keySet()) {		// OS í™˜ê²½ë³€ìˆ˜ ë¦¬ìŠ¤íŠ¸ ì½ì–´ì˜´
 			System.out.println(var + " = " + System.getenv(var));
 		}
 	}
