@@ -3,14 +3,14 @@ package ch12;
 public class StringBufferEx3 {
 
 	public static void main(String[] args) {
-		// ½ÃÀÛ
+		// ì‹œìž‘
 		long start = System.currentTimeMillis();
 		String str = "";
 		for (int i=0; i<100000; i++) {
 			str += i;
 		}
-		// ³¡
+		// ë
 		long end = System.currentTimeMillis();
-		System.out.println("½ÇÇà ½Ã°£ : " + ((end - start)/1000) + "ÃÊ");
+		System.out.println("ì‹¤í–‰ ì‹œê°„ : " + ((end - start)/1000) + "ì´ˆ");
 	}
 }
