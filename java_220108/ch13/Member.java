@@ -2,11 +2,13 @@ package ch13;
 
 public class Member {
 	// 필드
+	int id;
 	String name;
 	int age;
 	
 	// 생성자
-	Member (String name, int age) {
+	Member (int id, String name, int age) {
+		this.id = id;
 		this.name = name;
 		this.age = age;
 	}
@@ -14,7 +16,7 @@ public class Member {
 	// toSring() 메서드 재정의
 	@Override
 	public String toString() {
-		return "("+ name + "," + age + ")";
+		return "["+ name + "," + age + "]";
 	}
 	
 	// equals() 메서드 재정의
@@ -22,7 +24,7 @@ public class Member {
 	public boolean equals(Object obj) {
 		if(obj instanceof Member) {
 			Member m = (Member)obj;
-			return this.name.equals(m.name) && this.age == m.age;
+			return this.name.equals(m.name) && this.age == m.age && this.id == id;
 		} else {
 			return false;
 		}
@@ -31,6 +33,8 @@ public class Member {
 	// hashCode() 메서드 재정의
 	@Override
 	public int hashCode() {
-		return this.name.hashCode() + age;
+		//System.out.println(System.identityHashCode(this.name));
+		return id + this.name.hashCode() + age;
+		//return System.identityHashCode(this.name) + age;
 	}
 }
