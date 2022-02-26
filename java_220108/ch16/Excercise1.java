@@ -17,7 +17,8 @@ public class Excercise1 {
 		//          Java8 supports lambda expressions
 		list.stream()
 		// 코드작성
-		
+		.filter(a -> a.toLowerCase().contains("java"))
+		//.filter(a -> a.contains("java") && a.toLowerCase().equals("java"))
 		.forEach(a -> System.out.println(a));
 	}
 

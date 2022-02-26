@@ -13,11 +13,11 @@ public class Excercise2 {
 				new Member("이순신", 50)
 		);
 				
-		double ave = list.stream()
-					 // 코드작성
-					 
-
-		System.out.println("평균 나이 : " + avg);
+//		double ave = list.stream()
+//					 // 코드작성
+//					 
+//
+//		System.out.println("평균 나이 : " + avg);
 	}
 	
 	static class Member {
