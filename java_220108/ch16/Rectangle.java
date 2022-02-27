@@ -26,7 +26,7 @@ public class Rectangle extends Shape {
 	
 	@Override
 	public String toString() {
-		return "≥–¿Ã : "+this.area();
+		return "≥–¿Ã : " + this.area();
 	}
 	
 }

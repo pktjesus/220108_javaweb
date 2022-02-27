@@ -17,7 +17,8 @@ public class Excercise4 {
 		);
 		
 		Map<String, List<String>> groupingMap = list.stream()
-												// 코드작성
+						.collect(Collectors.groupingBy(Member::getJob, Collectors.mapping(Member::getName, Collectors.toList())));
+												
 				
 		System.out.println("[개발자] ");
 		groupingMap.get("개발자").stream().forEach(s -> System.out.print(s + " "));

@@ -25,7 +25,7 @@ public class Circle extends Shape {
 	
 	@Override
 	public String toString() {
-		return "≥–¿Ã : "+this.area();
+		return "≥–¿Ã : " + this.area();
 	}
 	
 }

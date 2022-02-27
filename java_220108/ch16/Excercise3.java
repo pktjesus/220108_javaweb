@@ -2,6 +2,7 @@ package ch16;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import ch16.Excercise2.Member;
 
@@ -14,9 +15,7 @@ public class Excercise3 {
 				new Member("이순신", "개발자")
 		);
 				
-		List<Member> developers = list.stream()
-									// 코드작성
-				
+		List<Member> developers = list.stream().filter(s -> s.getJob().equals("개발자")).collect(Collectors.toList());
 		developers.stream().forEach(m -> System.out.println(m.getName()));				
 	}
 	
